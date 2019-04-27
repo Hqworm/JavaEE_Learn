@@ -1,0 +1,42 @@
+java前端：
+  学习记忆：
+	1：html:
+	         标签
+		a href target跳转目标 _blank更心页面
+		form 收集数据
+		 ：文本框  多行文本框 单选  复选框 select  ul 列表
+	          提交表单的方式：
+		1、submit	按钮
+		2、使用 js  触发函数 获取元素调用submit()可以直接调用（☆）
+	2：css 
+		1、作用美化页面 层叠样式表
+		2、css三种方式(头，引入·css ,元素后写style) .classname #id div
+		3、margin(外边距标签与标签) padding（内边距 标签的内容和边框）
+		4、定位：
+			相对定位：position:relative相对自己原来的位置 发生变化 left:20px 相对它原来的位置距离20px 向右移动了20px
+			绝对定位：position:absolute  相对于自己父元素变动(但是父元素要指定一个定位，否则会相对body移动)
+			固定定位：position:foxed  相对于浏览器的状态栏
+			浮动
+		5、换行元素可以与不换行元素进行互换
+		6、div p h1~h6 table span
+		
+	3:js
+		1、作用：动态效果 验证
+		2、声明变量 var a=""
+  		3、数组不同  js函数不可以重载-- 重名判断的时候，不考虑参数 函数名相同就覆盖
+		4、常见的几个对象 
+ 			1、window:代表当前窗口
+				：getelementbyid...
+				:遍历的方法   child()   parentNode()
+				:操作方法 添加结点。。。
+			2、history:浏览记录
+			3、location定位  跳转
+			4、绑定事件
+	4: jQuery
+ 		作用：简化js开发
+		1、dom jQuery转换
+		2、选择器
+		3、事件绑定
+		4、创建元素  添加元素 遍历元素
+		5、jQuery遍历数组   $.each(arr,function(){  })     $("input").each（function(index){ $(this).val(index)}）
+		6、
